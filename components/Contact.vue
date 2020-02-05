@@ -5,7 +5,7 @@
             Thanks for taking the time to visit! I am always interested in
             hearing about what kind of website you'd like to build! If you would
             like to work together, please send me an e-mail at
-            <a href="mailto:mito81@gmail.com">mito81@gmail.com</a>!
+            <a href="mailto:hello@mattito.dev">hello@mattito.dev</a>!
         </p>
         <div class="handWave anim invisible">👋</div>
     </div>
