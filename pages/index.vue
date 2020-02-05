@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="blue">
+        <div class="blue anim invisible">
             <nav class="container">
                 <ul>
                     <li><a href="#skillsTab">skills</a></li>
@@ -10,7 +10,7 @@
             </nav>
             <div class="blue-container">
                 <div class="flex container">
-                    <div class="text anim invisible">
+                    <div class="text">
                         <h1 class="header">Hello!</h1>
                         <h1 class="header">I'm Matthew.</h1>
                         <h2 class="header">Front-end web developer</h2>
