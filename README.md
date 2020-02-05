@@ -1,22 +1,5 @@
-# portfolio
+# Portfolio website
 
-> My posh Nuxt.js project
+Hi! Thanks for taking the time to look at my portfolio website. It was built using Nuxt.js and Vue. If you have any questions, feel free to e-mail me at [mito81@gmail.com](mailto:mito81@gmail.com).
 
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm run install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+👋
