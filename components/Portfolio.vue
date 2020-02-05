@@ -1,5 +1,5 @@
 <template>
-    <div id="portfolioTab" class="top container anim">
+    <div id="portfolioTab" class="top container anim invisible">
         <h1 class="portfolioText">Portfolio</h1>
         <div class="grid">
             <portfolio-item

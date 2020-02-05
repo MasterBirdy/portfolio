@@ -10,7 +10,7 @@
             </nav>
             <div class="blue-container">
                 <div class="flex container">
-                    <div class="text anim">
+                    <div class="text anim invisible">
                         <h1 class="header">Hello!</h1>
                         <h1 class="header">I'm Matthew.</h1>
                         <h2 class="header">Front-end web developer</h2>
@@ -58,6 +58,9 @@ export default {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.intersectionRatio > 0) {
+                    anims[anims.indexOf(entry.target)].classList.remove(
+                        "invisible"
+                    );
                     animations[anims.indexOf(entry.target)].play();
                 }
             });
@@ -302,6 +305,10 @@ nav ul li {
     text-align: center;
     padding: 1rem;
     padding-bottom: 4rem;
+}
+
+.invisible {
+    visibility: hidden;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,5 +1,5 @@
 <template>
-    <div id="contactTab" class="anim">
+    <div id="contactTab" class="anim invisible">
         <h1 class="contact-title">Contact</h1>
         <p class="contact-text">
             Thanks for taking the time to visit! I am always interested in
@@ -7,7 +7,7 @@
             like to work together, please send me an e-mail at
             <a href="mailto:mito81@gmail.com">mito81@gmail.com</a>!
         </p>
-        <div class="handWave anim">👋</div>
+        <div class="handWave anim invisible">👋</div>
     </div>
 </template>
 

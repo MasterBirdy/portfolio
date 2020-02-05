@@ -1,6 +1,6 @@
 <template>
     <div id="skillsTab">
-        <div class="title anim">
+        <div class="title anim invisible">
             <a href="http://www.github.com/masterbirdy" target="_blank">
                 <img
                     class="github"
@@ -20,7 +20,7 @@
                 />
             </a>
         </div>
-        <div class="grid-list container anim">
+        <div class="grid-list container anim invisible">
             <div class="grid-item">
                 <ul class="list languages">
                     <li>HTML</li>
